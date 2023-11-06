@@ -16,5 +16,10 @@ namespace ReservationApp
         {
             InitializeComponent();
         }
+
+        private void cmdSubmit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

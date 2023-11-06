@@ -52,14 +52,14 @@
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(154, 33);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(339, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(339, 29);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(154, 65);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(339, 22);
+            this.dateTimePicker2.Size = new System.Drawing.Size(339, 29);
             this.dateTimePicker2.TabIndex = 1;
             // 
             // label1
@@ -67,7 +67,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(43, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.Size = new System.Drawing.Size(103, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Arrival Date:";
             // 
@@ -76,7 +76,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(43, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 13);
+            this.label2.Size = new System.Drawing.Size(137, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Departure Date: ";
             // 
@@ -85,7 +85,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(43, 106);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 13);
+            this.label3.Size = new System.Drawing.Size(156, 23);
             this.label3.TabIndex = 4;
             this.label3.Text = "Number Of People:";
             // 
@@ -94,7 +94,7 @@
             this.lblBedType.AutoSize = true;
             this.lblBedType.Location = new System.Drawing.Point(43, 158);
             this.lblBedType.Name = "lblBedType";
-            this.lblBedType.Size = new System.Drawing.Size(55, 13);
+            this.lblBedType.Size = new System.Drawing.Size(83, 23);
             this.lblBedType.TabIndex = 5;
             this.lblBedType.Text = "Bed Type:";
             // 
@@ -108,7 +108,7 @@
             "4"});
             this.lstNumberOfPeople.Location = new System.Drawing.Point(154, 103);
             this.lstNumberOfPeople.Name = "lstNumberOfPeople";
-            this.lstNumberOfPeople.Size = new System.Drawing.Size(339, 21);
+            this.lstNumberOfPeople.Size = new System.Drawing.Size(339, 31);
             this.lstNumberOfPeople.TabIndex = 2;
             // 
             // radioButton1
@@ -116,7 +116,7 @@
             this.radioButton1.AutoSize = true;
             this.radioButton1.Location = new System.Drawing.Point(3, 16);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(48, 17);
+            this.radioButton1.Size = new System.Drawing.Size(69, 27);
             this.radioButton1.TabIndex = 3;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "King";
@@ -127,7 +127,7 @@
             this.radioButton2.AutoSize = true;
             this.radioButton2.Location = new System.Drawing.Point(221, 16);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(84, 17);
+            this.radioButton2.Size = new System.Drawing.Size(123, 27);
             this.radioButton2.TabIndex = 5;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "One Queen";
@@ -138,7 +138,7 @@
             this.radioButton3.AutoSize = true;
             this.radioButton3.Location = new System.Drawing.Point(96, 16);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(83, 17);
+            this.radioButton3.Size = new System.Drawing.Size(121, 27);
             this.radioButton3.TabIndex = 4;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Two Queen";
@@ -157,7 +157,7 @@
             this.lblSpecialRequest.AutoSize = true;
             this.lblSpecialRequest.Location = new System.Drawing.Point(43, 211);
             this.lblSpecialRequest.Name = "lblSpecialRequest";
-            this.lblSpecialRequest.Size = new System.Drawing.Size(88, 13);
+            this.lblSpecialRequest.Size = new System.Drawing.Size(129, 23);
             this.lblSpecialRequest.TabIndex = 11;
             this.lblSpecialRequest.Text = "Special Request";
             // 
@@ -166,7 +166,7 @@
             this.chkAudioAid.AutoSize = true;
             this.chkAudioAid.Location = new System.Drawing.Point(49, 340);
             this.chkAudioAid.Name = "chkAudioAid";
-            this.chkAudioAid.Size = new System.Drawing.Size(77, 17);
+            this.chkAudioAid.Size = new System.Drawing.Size(111, 27);
             this.chkAudioAid.TabIndex = 7;
             this.chkAudioAid.Text = "Audio Aid";
             this.chkAudioAid.UseVisualStyleBackColor = true;
@@ -176,7 +176,7 @@
             this.chkVisualAid.AutoSize = true;
             this.chkVisualAid.Location = new System.Drawing.Point(132, 340);
             this.chkVisualAid.Name = "chkVisualAid";
-            this.chkVisualAid.Size = new System.Drawing.Size(77, 17);
+            this.chkVisualAid.Size = new System.Drawing.Size(111, 27);
             this.chkVisualAid.TabIndex = 8;
             this.chkVisualAid.Text = "Visual Aid";
             this.chkVisualAid.UseVisualStyleBackColor = true;
@@ -186,7 +186,7 @@
             this.chkMobileAid.AutoSize = true;
             this.chkMobileAid.Location = new System.Drawing.Point(215, 340);
             this.chkMobileAid.Name = "chkMobileAid";
-            this.chkMobileAid.Size = new System.Drawing.Size(82, 17);
+            this.chkMobileAid.Size = new System.Drawing.Size(118, 27);
             this.chkMobileAid.TabIndex = 9;
             this.chkMobileAid.Text = "Mobile Aid";
             this.chkMobileAid.UseVisualStyleBackColor = true;
@@ -203,17 +203,19 @@
             // 
             // cmdSubmit
             // 
+            this.cmdSubmit.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.cmdSubmit.Location = new System.Drawing.Point(418, 336);
             this.cmdSubmit.Name = "cmdSubmit";
             this.cmdSubmit.Size = new System.Drawing.Size(75, 23);
             this.cmdSubmit.TabIndex = 10;
             this.cmdSubmit.Text = "SUBMIT";
-            this.cmdSubmit.UseVisualStyleBackColor = true;
+            this.cmdSubmit.UseVisualStyleBackColor = false;
+            this.cmdSubmit.Click += new System.EventHandler(this.cmdSubmit_Click);
             // 
             // Form1
             // 
             this.AcceptButton = this.cmdSubmit;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 381);
             this.Controls.Add(this.cmdSubmit);
